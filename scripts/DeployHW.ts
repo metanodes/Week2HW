@@ -67,7 +67,7 @@ async function main() {
             address: receipt.contractAddress,
             abi,
             functionName: "giveRightToVote",
-            args: "0xf642875ba00065297E9ce537DAE0224D5107c4C8",
+            args: [0xf642875ba00065297E9ce537DAE0224D5107c4C8],
           });
 
   }

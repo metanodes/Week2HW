@@ -8,7 +8,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const providerApiKey = process.env.ALCHEMY_API_KEY || "";
-const deployerPrivateKey = process.env.PRIVATE_KEY || "";
+const deployerPrivateKey = process.env.PRIVATE_KEY2 || "";
 
 async function main() {
 
